@@ -60,7 +60,7 @@ ambientSound.player.volume.value = 5; //turn up volume
 export var adventureMusic = new soundFile("calming piano music.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
-adventureMusic.player.volume.value = -16;
+adventureMusic.player.volume.value = 10;
 
 export var villageMusic = new soundFile("silence.mp3");
 soundArray.push(villageMusic);
